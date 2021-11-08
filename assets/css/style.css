@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada:wght@100;700&display=swap');
+
+* {
+    font-family: "Scada";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -9999;
+}
+.vektor{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.alir{
+    position: absolute;
+    top: 45px;
+    left: 23px;
+}
+.gambar{
+    position: absolute;
+    margin: 50px 50px 100px;
+}
+.nav-logo{
+    position: absolute;
+    top: 28px;
+    left: 15px;
+    z-index: -8888;
+}
+
+button{
+    background-color: #4BB0B0;
+    color: black;
+}
+.btn1{
+    padding: 16px 40px;
+    border: none;
+    border-radius: 100px;
+    position: absolute;
+    left: 1090px;
+    top: 70px;
+    font-weight: 700;
+    display: flex;
+}
+.btn2{
+    padding: 16px 40px;
+    border: none;
+    border-radius: 100px;
+    position: absolute;
+    left: 1218px;
+    top: 70px;
+    font-weight: 700;
+}
+
+.text{
+color: white;
+position: absolute;
+left: 460px;
+top: 63px;
+}
+.pwt{
+    color: white;
+    position: absolute;
+    left: 1000px;
+    top: 310px;
+    width: 300px;
+}
+
+.gambar{
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+
+.peta{
+    position: absolute;
+    top: 250px;
+    left: 230px;
+}
