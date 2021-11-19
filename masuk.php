@@ -33,7 +33,7 @@
         <h1>Masuk Akun</h1>
     </div>
     <div class="box-login">
-        <form action="" method="post">
+        <form action="dashboard.php" method="post">
 <table>
     <tr>
     <div class="us1">
@@ -49,14 +49,15 @@
         <td><input type="password" placeholder="password anda" name = "pass"></td>
 </div>
     </tr>
-     <tr>
+    <tr>
         <td></td>
         <td></td>
         <td><input type="submit" values="SIMPAN" name="simpan"></td>
+        </form>
     </tr>
 </table>
-        </form>
-    </div>
+</form>
+</div>
 </body>
 </html>
 <?php
@@ -69,7 +70,7 @@
     $sql = "INSERT INTO Masuk(username, pass) VALUES ('.$username.', '.$password.')";
 
     if($koneksi ->query($sql) === TRUE){
-        echo "<a href='index.html'></a><br>";
+        echo "<a href='dashboard.php'></a><br>";
     }else{
         echo "Error:" .$sql . "<br>" . $koneksi->error;
     }

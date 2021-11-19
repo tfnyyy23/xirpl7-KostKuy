@@ -36,7 +36,7 @@
     </div>
 
     <div class="box-login">
-<form action="" method="post">
+<form action="dashboard.php" method="post">
 <table>
     <tr>
         <td>Nama</td>
@@ -86,6 +86,7 @@
         <td></td>
         <td></td>
         <td><input type="submit" values="SIMPAN" name="simpan"></td>
+        </form>
     </tr>
 </table>
 </form>

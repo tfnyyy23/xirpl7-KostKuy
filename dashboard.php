@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/img/logo.png">
-    <link rel="stylesheet" href="assets/css/dash.css">
+    <link rel="stylesheet" href="assets/css/dash_2.css">
     <title>Dashboard</title>
 </head>
 <body>
@@ -35,9 +35,10 @@
   <input class="button" type="button" value="Cari">		
 </form>
 
+
 <div>
     <div class="box1">
-    <img class="g1" src="assets/img/g1.png" >
+    <img class="g1" src="assets/img/g1.png" ><br>
          <div class="text1">
             <h3>Jasmine Kost</h3>
             <p class="p1">Alamat: Jl. DI Panjaitan gang karang baru No.999/42, Kedungampel, Purwokerto Kulon, Kec. Purwokerto Sel., Kabupaten Banyumas, Jawa Tengah 53141</p>
